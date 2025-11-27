@@ -1,5 +1,3 @@
-// src/cron-checker.ts
-
 import cron from "node-cron";
 import { Pages } from "@prisma/client";
 import { Server } from "socket.io";
