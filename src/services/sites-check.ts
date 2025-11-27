@@ -3,7 +3,7 @@ import { Pages } from "@prisma/client";
 import { Server } from "socket.io";
 import { prisma } from "../database/db";
 
-const TIMEOUT_MS = 30000;
+const TIMEOUT_MS = 50000;
 const EVENT_NAME = "dominio_status";
 
 const normalizarUrl = (dominio: string): string => {
